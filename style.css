@@ -1,3 +1,180 @@
-body {
-    background-color: blue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1520px;
+    margin: auto;
+    background-color: #000;
+}
+.header_content {
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between  ;
+    color: #fff;
+    align-items: center;
+}
+.header_list {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+.img {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.img_heading {
+    font-size: 20px;
+}
+/* /////////////////////////////////////////////hero\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+main {
+    width: 1520px;
+    margin: auto;
+}
+
+.hero {
+    background-color: #000;
+}
+
+.hero_content {
+    width: 80%;
+    margin: auto;
+    height: 40px;
+}
+.hero_list {
+    list-style-type: none;
+    display: flex;
+    margin: 0px 20px;
+    gap: 100px;
+}
+.hero_items {
+    color: #fff;
+}
+.hero_items:nth-child(1) {
+    color: #E8AA31;
+}
+.list_hero {
+    width: 120px;    
+    height: 3px;
+    background-color: #E8AA31;
+    margin: 20px 10px;
+}
+
+
+
+/* //////////////////////////////////////////////////internet\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+.internet {
+    background-color: #353535;
+    background-color: #141414;
+}
+.internet_content {
+    color: #fff;
+    width: 80%;
+    height:700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.internet_heading {
+    padding: 20px 0px;
+}
+.internet_paragrf {
+    padding: 30px 0px;
+}
+.internet_btn {
+    width: 150px;
+    height: 30px; 
+    margin: 10px 0px;
+    background-color: #E8AA31;
+    border-radius: 5px;
+    border: 0;
+    box-shadow:0.1px 0.1px 7px #E8AA31, -0.1px -0.1px 7px #E8AA31;
+}
+.heading_internet {
+    padding: 20px 110px;
+}
+.internet_left_box {
+    margin: 80px 0px;
+    position: relative;
+    top: 50px;
+}
+.left_box_img:nth-child(1) {
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    top: -100px;
+    right: 100px;
+}
+
+.left_box_img:nth-child(2) {
+    position: absolute;
+    top: -65px;
+    right: -85px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    top: 400px;
+    margin: auto;
+    width: 80%;
+}
+
+.center_card {
+    width: 200px;
+    height: 200px;
+    color: #fff;
+}
+.card_img {
+    margin: 0px 70px;
+}
+.card_paragrf {
+    text-align: center;
+}
+
+.knife {
+    width: 1520px;
+    margin: auto;
+}
+.knife_content {
+    width: 80%;
+    height: 500px;
+    margin:50px auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.knife_card {
+    width: 400px;
+    height: 220px;
+    background-color: #fff;
+    padding: 30px 20px;
+    display: flex;
+}
+
+.heading {
+    margin: 10px 0px;
+    width: 50px;
+    height: 2px;
+    background-color: #E8AA31;
+}
+
+.knife_list {
+    padding: 30px 20px;
+}
+
+.knife_left_box {
+    margin: -30px 50px;
+}
+
+.knife_img {
+    width: 190px;
 }

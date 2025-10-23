@@ -178,3 +178,95 @@ main {
 .knife_img {
     width: 190px;
 }
+
+.stars {                        
+    width: 1520px;
+    margin: auto;
+}
+
+.stars_content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 270px;
+    height:500px;
+    background-color: #fff;
+}
+
+.up_img {
+    width: 300px;
+}
+
+.up_heading {
+    padding: 10px 10px;
+}
+
+.box_center_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center_paragrf {
+    padding: 10px 10px;
+}
+
+.box_dowwn_box {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.box_down_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_btn {
+    width: 250px;
+    height: 30px;
+    margin: 10px 5px;
+    color: #fff;
+    background-color: #E8AA31;
+    border: 0;  
+}
+
+
+.New_items {                                    
+    width: 1520px;
+    margin: auto;
+    background-color: #2a2a2a;
+    background-image: url("./img/751\ 2.png");
+}
+
+.New_items_content {
+    width: 80%;
+    height:600px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_heading {
+    padding: 5px 0px;
+}
+
+.text_paragrf {
+    padding: 20px 0px;
+    color: silver;
+}
+
+.text_span {
+    color: #E8AA31;
+}
+
+.New_items_box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px 0px;
+    height: 200px;
+}

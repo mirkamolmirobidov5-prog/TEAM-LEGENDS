@@ -6,7 +6,17 @@
 
 .container {
     width: 1520px;
+    display: block;
     margin: auto;
+    /* containerga faqatgaina width va margin beriladi boshqa narsa berish tavsiya qilinmaydi! */
+}
+
+
+/* headerdagi hatoni to'g'rilash kerk mediada katta ekranlarda ochiladigan xolini boshidan ko'rib chiqish kerak va iconlarni hajmini to'g'rlash zarur! */
+
+
+header {
+
     background-color: #000;
 }
 .header_content {
